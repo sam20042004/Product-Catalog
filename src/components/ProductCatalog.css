@@ -1,0 +1,93 @@
+/* ProductCatalog.css */
+.product-catalog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px; /* Add some margin for spacing */
+}
+
+/* E-commerce website name styles */
+.website-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4a90e2;
+    text-align: center;
+}
+
+/* Search bar and Sort dropdown container styles */
+.input-container {
+    display: flex;
+    flex-direction: column; /* Adjust to column layout */
+    align-items: flex-end; /* Align items to the right */
+    margin-bottom: 20px;
+}
+
+/* Search bar styles */
+.search-bar input[type="text"] {
+    width: 900px; /* Adjust the width as needed */
+    height: 22px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 8px; /* Add some margin between the input elements */
+}
+
+/* Sort dropdown styles */
+.sort-dropdown label {
+    margin-right: 8px;
+}
+
+.sort-dropdown select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Product grid styles */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Product component styles (adjust as needed) */
+.product {
+    border: 1px solid purple;
+    background-color: blanchedalmond; /* Light gray background color */
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.product-description {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e44d26;
+}
+
+/* Thank You message styles */
+.thank-you-message {
+    font-size: 18px;
+    font-weight: bold;
+    color: purple; /* Adjust color as needed */
+    margin-top: 20px;
+}
